@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Dreamstime Auto-Metadata</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>RJ Dreamstime Auto-Metadata</h1>
+    <div id="content">
+        <p>Status: Idle</p>
+        <hr>
+        <h2>Pengaturan API Key Gemini</h2>
+        <!-- API Key Input Replaced with File Input -->
+        <label for="apiKeyFile">Pilih File API Key (.txt):</label>
+        <input type="file" id="apiKeyFile" accept=".txt" style="display: block; margin-bottom: 5px;">
+        <button id="saveSettingsButton">Load File & Simpan Pengaturan</button> <!-- Changed button ID and text -->
+        <p id="fileStatus" class="status-message"></p> <!-- Changed status ID -->
+        <div>
+            <label for="modelSelect">Model AI:</label>
+            <select id="modelSelect" name="modelSelect">
+                <option value="gemini-1.5-flash">gemini-1.5-flash (Recommended)</option>
+                <option value="gemini-1.5-pro">gemini-1.5-pro</option>
+                <option value="gemini-2.0-flash-8b">gemini-1.5-flash-8b</option>
+                <!-- Add other valid models if needed -->
+                <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+                <option value="gemini-2.0-flash-exp">gemini-2.0-flash-exp</option>
+                <option value="gemini-2.0-flash-lite">gemini-2.0-flash-lite</option>
+            </select>
+        </div>
+        <hr>
+        <div class="button-container">
+             <button id="analyzeButton">Analisis & Isi Metadata</button>
+             <button id="stopAutoButton" style="display: none; margin-left: 5px;">Stop Auto</button>
+        </div>
+        <hr>
+        <p><a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">Dapatkan API Key Gemini di sini</a></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

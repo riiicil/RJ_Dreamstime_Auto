@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "RJ Dreamstime Auto-Metadata",
+  "version": "1.1.0", 
+  "description": "Menganalisis gambar di halaman upload Dreamstime menggunakan Gemini dan mengisi metadata secara otomatis.",
+  "permissions": [
+    "storage",      
+    "scripting",    
+    "activeTab",    
+    "tabs"          
+  ],
+  "host_permissions": [
+    "*://*.dreamstime.com/upload*",
+    "*://*.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.dreamstime.com/upload*"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_idle" 
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
