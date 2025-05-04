@@ -1,10 +1,15 @@
 # RJ Dreamstime Auto-Metadata Extension
 
-## Deskripsi
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<!-- Tambahkan badge lain jika relevan -->
+
+**© [Nama Anda] [Tahun Sekarang]**
+
+## 1. Deskripsi
 
 Ekstensi Chrome ini membantu mengotomatiskan proses pengisian metadata (judul, deskripsi, kata kunci) untuk unggahan gambar di Dreamstime menggunakan AI generatif (Google Gemini).
 
-## Fitur
+## 2. Fitur
 
 *   Mengambil URL gambar dari halaman unggah Dreamstime.
 *   Mengirim URL gambar ke Google Gemini API untuk analisis.
@@ -13,7 +18,7 @@ Ekstensi Chrome ini membantu mengotomatiskan proses pengisian metadata (judul, d
 *   Mendukung penggunaan beberapa API Key Google Gemini (rotasi otomatis).
 *   Antarmuka popup untuk memuat file API key dan memulai proses.
 
-## Instalasi
+## 3. Instalasi
 
 1.  Unduh versi terbaru dari halaman **Releases** di repository GitHub ini (cari file `.zip`).
 2.  Unzip file yang telah diunduh.
@@ -23,7 +28,7 @@ Ekstensi Chrome ini membantu mengotomatiskan proses pengisian metadata (judul, d
 6.  Arahkan ke folder hasil unzip tadi dan pilih folder tersebut.
 7.  Ekstensi sekarang terinstal.
 
-## Penggunaan
+## 4. Penggunaan
 
 1.  Siapkan file teks (`.txt`) yang berisi satu atau lebih Google Gemini API Key Anda (satu key per baris).
 2.  Buka halaman unggah gambar di Dreamstime.
@@ -33,10 +38,10 @@ Ekstensi Chrome ini membantu mengotomatiskan proses pengisian metadata (judul, d
 6.  Klik tombol "Start Analysis".
 7.  Ekstensi akan mengambil gambar, mengirimkannya ke API, dan mengisi kolom metadata secara otomatis.
 
-## Lisensi
+## 5. Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-## Kontribusi / Laporan Bug
+## 6. Kontribusi / Laporan Bug
 
 (Tambahkan bagian ini jika Anda terbuka untuk kontribusi atau ingin memberikan cara melaporkan bug)
