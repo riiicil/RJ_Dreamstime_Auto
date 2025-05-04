@@ -1,9 +1,13 @@
 # RJ Dreamstime Auto-Metadata Extension
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-<!-- Tambahkan badge lain jika relevan -->
+[![Language: JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Language: HTML5](https://img.shields.io/badge/Language-HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![Language: CSS3](https://img.shields.io/badge/Language-CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
+<!-- [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://example.com/build-status) --> <!-- Placeholder -->
 
-**© [Nama Anda] [Tahun Sekarang]**
+**© Riiicil 2025**
 
 ## 1. Deskripsi
 
@@ -42,6 +46,16 @@ Ekstensi Chrome ini membantu mengotomatiskan proses pengisian metadata (judul, d
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-## 6. Kontribusi / Laporan Bug
+## 6. Kontribusi
 
-(Tambahkan bagian ini jika Anda terbuka untuk kontribusi atau ingin memberikan cara melaporkan bug)
+Saat ini proyek ini dikelola secara solo dan merupakan proyek pertama saya! Oleh karena itu, saya fokus pada pembelajaran dan pengembangan. Meskipun saat ini belum siap untuk menerima kontribusi formal, saya selalu terbuka untuk mendengar masukan atau saran.
+
+## 7. Kontak & Dukungan
+
+Anda dapat menemukan saya dan berdiskusi mengenai proyek ini (atau yang lain) di: https://s.id/rj_auto_metadata
+
+## 8. Dukung Proyek Ini
+
+Jika Anda merasa ekstensi ini bermanfaat dan ingin mendukung pengembangan selanjutnya, Anda bisa melakukannya melalui QR code di bawah ini. Terima kasih!
+
+![Support QR Code](icons/qr.jpg)

@@ -1,3 +1,7 @@
+// RJ Dreamstime Auto
+// Copyright (c) 2025 Riiicil
+// Licensed under the MIT License. See LICENSE file for details.
+
 // DOM Elements (Updated for File Input)
 const apiKeyFileInput = document.getElementById('apiKeyFile'); // Input file element
 const saveSettingsButton = document.getElementById('saveSettingsButton'); // Changed button ID

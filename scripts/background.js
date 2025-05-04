@@ -1,5 +1,5 @@
-// RJ Dreamstime Auto-Metadata Extension
-// Copyright (c) [Tahun Sekarang] [Nama Anda atau Nama Perusahaan Anda]
+// RJ Dreamstime Auto
+// Copyright (c) 2025 Riiicil
 // Licensed under the MIT License. See LICENSE file for details.
 
 // --- Global State for Auto-Processing ---
