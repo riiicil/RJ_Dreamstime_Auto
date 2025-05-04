@@ -19,7 +19,7 @@ dan proyek ini mengikuti [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ### Diperbaiki (Fixed)
 - Perbaikan bug
 
-## [1.1.0] - YYYY-MM-DD
+## [1.1.0] - 2025-05-04
 
 ### Ditambahkan
 - Inisialisasi proyek dengan struktur dasar.
